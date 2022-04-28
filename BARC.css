@@ -1,0 +1,209 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.C1{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(627165.jpg);
+    background-position: center;
+    background-size: cover;
+    position: realtive;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.C3{
+    flex: 1;
+    text-align: right;
+    font-family: 'Shizuru', cursive;
+}
+.C3 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+.C3 ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.C3 ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #36f4f1;
+    display:block;
+    margin: auto;
+    transition: 0.5s;
+}
+.C3 ul li:hover::after{
+    width: 100%;
+}
+.C4{
+    width: 90%;
+    /* color: rgb(215, 67, 190); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+h1{
+    color: #4ababa;
+    text-transform: uppercase;
+    /* -webkit-box-reflect:below 1px linear-gradient(transparent,#0004); */
+    animation: animate 1s ease-in-out infinite
+    alternate;
+}
+
+@keyframes animate{
+    from{
+        text-shadow: 0 0 30px #289aab;
+    }
+    to{
+        text-shadow: 0 0 40px #289aab,
+                     0 0 20px #289aab;
+    }
+}
+.C4 h1{
+    font-size: 130px;
+}
+.C4 p{
+    margin:11px 0 41px;
+    font-size: 60px;
+    color: rgba(182, 11, 11, 0.711);
+}
+/* .About{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px; */
+
+/* h2{
+    font-size: 90px;
+}
+
+.C6{
+    flex: 1;
+    text-align: right;
+    font-family: 'Shizuru', cursive; */
+    .C11{
+        font-size: 70px;
+        color: rgb(236, 23, 23);   
+    }
+    
+    .C5{
+        width: 80%;
+        margin:auto;
+        text-align: center;
+        padding-top: 100px;
+        font-size: 120px;
+    }
+
+    .C9{
+        color:rgb(21, 21, 22);
+        font-size: 30px;
+        text-align: centre;
+    }
+    .ci{
+        width: 700px;
+        clip-path: circle();
+    }
+    
+    .C10{
+        border: 3px rgb(181, 176, 42);
+        color: black;
+        margin: 12px 3px ;
+        padding: 12px 3px;
+        
+        border-bottom-right-radius: 40px;
+        width: 1600px;
+    }
+
+.C7{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(190, 201, 242, 0.7)),url(Gaming-Wallpaper.png);
+    background-position: center;
+    background-size: cover;
+    position: realtive;
+    
+}
+.C8{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 120px;
+    color: rgba(237, 22, 22, 0.9);
+    
+    animation: animate 1s ease-in-out infinite
+    alternate;
+}
+
+@keyframes animate{
+    from{
+        text-shadow: 0 0 30px #289aab;
+    }
+    to{
+        text-shadow: 0 0 40px #289aab,
+                     0 0 20px #289aab;
+    }
+}
+.R1{
+        width: 80%;
+        margin:auto;
+        text-align: center;
+        padding-top: 100px;
+        font-size: 80px;
+}
+.C14{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(TamSoR.jpg);
+    background-position: center;
+    background-size: cover;
+    position: realtive;
+}
+.C15{
+    width: 80%;
+    font-size: 70px;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.C16{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.C16 .C17{
+    position: relative;
+   
+}
+.C16 .C17:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: #d35400;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+.C16 .C17:hover:before{
+    transform: scale(1.5);
+}
